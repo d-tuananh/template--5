@@ -2,7 +2,7 @@ export const Section2 = () => {
   return (
     <section className="relative">
       <div className="absolute bottom-0 h-full right-0 translate-y-1/4 hidden xl:block">
-        <img src="src/images/png/img6.png" alt="" />
+        <img src="img6.png" alt="" />
       </div>
       <div className="container grid grid-cols-1 xl:grid-cols-2 gap-5">
         <div className="flex flex-col gap-4 justify-center">
@@ -34,17 +34,17 @@ export const Section2 = () => {
             href="tel:0123456789"
             className="bg-linear-green rounded-full py-3 px-5 flex gap-1 justify-center items-center text-white hover:opacity-70 w-fit mx-auto lg:mx-0"
           >
-            <img src="src/images/svg/call_white.svg" alt="" />
+            <img src="call_white.svg" alt="" />
             GỌI CHO CHÚNG TÔI
           </a>
         </div>
         <div>
           <div className="relative w-fit mx-auto">
             <div>
-              <img src="src/images/png/img4.png" alt="" />
+              <img src="img4.png" alt="" />
             </div>
             <div className="absolute bottom-0 inset-x-0 -translate-x-16">
-              <img src="src/images/png/img3.png" className="" alt="" />
+              <img src="img3.png" className="" alt="" />
             </div>
           </div>
         </div>

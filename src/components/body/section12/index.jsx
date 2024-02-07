@@ -3,7 +3,7 @@ export const Section12 = () => {
     <section>
       <div className="container flex flex-col xl:flex-row gap-10 items-center">
         <div className=" min-w-fit">
-          <img src="src/images/png/img31.png" alt="" />
+          <img src="img31.png" alt="" />
         </div>
         <div className="shadow-custom w-full rounded-2xl overflow-hidden">
           <div className="bg-dd-400 text-white w-full text-center py-4">

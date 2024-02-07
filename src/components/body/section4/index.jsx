@@ -1,36 +1,36 @@
 const data = [
   {
-    url: "src/images/svg/icon1.svg",
+    url: "icon1.svg",
     title: "Ho kéo dài mãi",
     content:
       "Một số dấu hiệu ung thư tuyến giáp giai đoạn đầu cần hết sức lưu ý",
   },
   {
-    url: "src/images/svg/icon2.svg",
+    url: "icon2.svg",
     title: "Cơ thể mệt mỏi",
     content:
       "Một số dấu hiệu ung thư tuyến giáp giai đoạn đầu cần hết sức lưu ý",
   },
   {
-    url: "src/images/svg/icon3.svg",
+    url: "icon3.svg",
     title: "Thay đổi giọng nói",
     content:
       "Một số dấu hiệu ung thư tuyến giáp giai đoạn đầu cần hết sức lưu ý",
   },
   {
-    url: "src/images/svg/icon4.svg",
+    url: "icon4.svg",
     title: "Các tuyến ở cổ bị sưng",
     content:
       "Một số dấu hiệu ung thư tuyến giáp giai đoạn đầu cần hết sức lưu ý",
   },
   {
-    url: "src/images/svg/icon5.svg",
+    url: "icon5.svg",
     title: "Khó thở, khó nuốt",
     content:
       "Một số dấu hiệu ung thư tuyến giáp giai đoạn đầu cần hết sức lưu ý",
   },
   {
-    url: "src/images/svg/icon6.svg",
+    url: "icon6.svg",
     title: "Cổ đau phía trước",
     content:
       "Một số dấu hiệu ung thư tuyến giáp giai đoạn đầu cần hết sức lưu ý",

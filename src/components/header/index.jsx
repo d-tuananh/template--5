@@ -19,7 +19,7 @@ export const Header = () => {
   return (
     <div className="container flex justify-between items-center py-3 relative xl:static">
       <div className="cursor-pointer">
-        <img src="src/images/png/logo.png" alt="" />
+        <img src="logo.png" alt="" />
       </div>
       <ul className="hidden xl:flex items-center gap-4 font-bold">
         {menu.map((item, index) => (
@@ -73,7 +73,7 @@ export const Header = () => {
       <div className="bg-linear-green rounded-full hover:opacity-80 cursor-pointer xl:block hidden">
         <a href="tel:1900 1806" className="flex items-center gap-2 px-3 py-2">
           <div className="bg-white rounded-full p-1">
-            <img src="src/images/svg/call.svg" alt="" />
+            <img src="call.svg" alt="" />
           </div>
           <span className="text-white">Gọi 1900 1806</span>
         </a>
@@ -94,20 +94,37 @@ export const Header = () => {
           }, 500)
         }}
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth={1.5}
-          stroke="currentColor"
-          className="w-6 h-6"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75"
-          />
-        </svg>
+        {showMenu ? (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="1.5"
+            stroke="currentColor"
+            className="w-6 h-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M6 18 18 6M6 6l12 12"
+            />
+          </svg>
+        ) : (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-6 h-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75"
+            />
+          </svg>
+        )}
       </div>
     </div>
   )

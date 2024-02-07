@@ -2,7 +2,7 @@ export const Section6 = () => {
   return (
     <section className="relative xl:mt-[10rem]">
       <div className="absolute bottom-0 h-full right-0 translate-y-1/4 hidden xl:block">
-        <img src="src/images/png/img6.png" alt="" />
+        <img src="img6.png" alt="" />
       </div>
       <div className="container grid grid-cols-1 xl:grid-cols-2 gap-10">
         <div className="flex flex-col gap-5 justify-center">
@@ -17,7 +17,7 @@ export const Section6 = () => {
                 className="flex justify-center items-center gap-4 bg-[#FFF2FD] p-2 rounded-2xl"
               >
                 <div>
-                  <img src="src/images/png/img15.png" alt="" />
+                  <img src="img15.png" alt="" />
                 </div>
                 <p>
                   Với những trường hợp nghi ngờ ung thư tuyến giáp, bác sĩ có
@@ -36,10 +36,10 @@ export const Section6 = () => {
         <div>
           <div className="relative w-fit mx-auto">
             <div>
-              <img src="src/images/png/img4.png" alt="" />
+              <img src="img4.png" alt="" />
             </div>
             <div className="absolute bottom-0 inset-x-0 -translate-x-16">
-              <img src="src/images/png/img3.png" className="" alt="" />
+              <img src="img3.png" className="" alt="" />
             </div>
           </div>
         </div>

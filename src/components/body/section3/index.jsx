@@ -11,15 +11,15 @@ export const Section3 = () => {
   return (
     <section className="relative">
       <div className="absolute bottom-0 left-0 top-0 translate-y-[15%] -z-10 lg:block hidden">
-        <img src="src/images/png/img7.png" alt="" />
+        <img src="img7.png" alt="" />
       </div>
       <div className="container xl:mt-[10rem] grid grid-cols-1 xl:grid-cols-3 gap-10 place-items-center">
         <div className="relative order-last xl:-order-last ">
           <div className="absolute bottom-0 right-0 top-0 overflow-hidden rounded-3xl -z-[1]">
-            <img src="src/images/png/img8.png" alt="" />
+            <img src="img8.png" alt="" />
           </div>
           <div className="">
-            <img src="src/images/png/img9.png" alt="" />
+            <img src="img9.png" alt="" />
           </div>
         </div>
         <div className="lg:col-span-2 flex flex-col gap-5">
@@ -36,7 +36,7 @@ export const Section3 = () => {
           {data.map((item, index) => (
             <div key={index} className="flex items-center gap-4">
               <div className="p-2 rounded-full bg-dd-400">
-                <img src="src/images/svg/head.svg" alt="" />
+                <img src="head.svg" alt="" />
               </div>
               <p className="font-medium">{item}</p>
             </div>

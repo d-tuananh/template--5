@@ -1,30 +1,30 @@
 const data = [
   {
-    url: "src/images/png/img18.png",
+    url: "img18.png",
     titile: "Bước 1:",
     content:
       "Khách hàng liên hệ thông qua tổng đài 19001806 hoặc đến bệnh viện trực tiếp để được tư vấn và đặt lịch khám.",
-    icon: "src/images/png/img19.png",
+    icon: "img19.png",
   },
   {
-    url: "src/images/png/img23.png",
+    url: "img23.png",
     titile: "Bước 2:",
     content: "Thanh toán chi phí của gói khám.",
-    icon: "src/images/png/img20.png",
+    icon: "img20.png",
   },
   {
-    url: "src/images/png/img24.png",
+    url: "img24.png",
     titile: "Bước 3:",
     content:
       "Thực hiện các bước thăm khám, xét nghiệm và chẩn đoán bằng hình ảnh tại viện.",
-    icon: "src/images/png/img21.png",
+    icon: "img21.png",
   },
   {
-    url: "src/images/png/img25.png",
+    url: "img25.png",
     titile: "Bước 4:",
     content:
       "Bác sĩ trả kết quả, kết luận và tư vấn quá trình điều trị tiếp theo (nếu có).",
-    icon: "src/images/png/img22.png",
+    icon: "img22.png",
   },
 ]
 export const Section9 = () => {
@@ -54,9 +54,12 @@ export const Section9 = () => {
             </div>
           ))}
         </div>
-        <button className="bg-linear-green py-2 px-5 rounded-full text-white uppercase font-bold mx-auto sm:mx-0" onClick={()=>{
-           prompt("Vui lòng nhập số điện thoại !!!!")
-        }}>
+        <button
+          className="bg-linear-green py-2 px-5 rounded-full text-white uppercase font-bold mx-auto sm:mx-0"
+          onClick={() => {
+            prompt("Vui lòng nhập số điện thoại !!!!")
+          }}
+        >
           Đăng kí tư vấn
         </button>
       </div>

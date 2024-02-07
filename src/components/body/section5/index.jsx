@@ -26,7 +26,7 @@ export const Section5 = () => {
     <section>
       <div className="container relative">
         <div className="absolute bottom-0 left-0 right-0 translate-y-1/4 hidden 2xl:block">
-          <img src="src/images/png/img33.png" width="100%" alt="" />
+          <img src="img33.png" width="100%" alt="" />
         </div>
         <div className="2xl:absolute top-0 right-0 2xl:w-[60%] z-30 mb-3 2xl:mb-0">
           <h3 className="text-4xl font-bold mb-2 text-center 2xl:text-start">
@@ -67,7 +67,7 @@ export const Section5 = () => {
             <SwiperSlide key={index} style={{ background: "none" }}>
               <div className="flex xl:mx-[12rem] gap-2 md:gap-5 items-center xl:items-end my-3 xl:my-0">
                 <div className="md:w-1/3 hidden md:block mx-5">
-                  <img src="src/images/png/img32.png" alt="" />
+                  <img src="img32.png" alt="" />
                 </div>
                 <div className="md:w-2/3 text-white text-start xl:mb-[5rem] mx-10">
                   <h4 className="text-2xl mb-4 text-center md:text-start">

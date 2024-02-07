@@ -2,7 +2,7 @@ export const Footer = () => {
   return (
     <div className="container py-7 flex flex-col gap-5">
       <div className="cursor-pointer">
-        <img src="src/images/png/logo_white.png" alt="" />
+        <img src="logo_white.png" alt="" />
       </div>
       <div className="xl:flex xl:justify-between grid grid-cols-1 md:grid-cols-2 gap-4 text-white">
         <div className="flex flex-col gap-3">
@@ -44,16 +44,16 @@ export const Footer = () => {
           <h4 className="font-bold text-xl">Mạng xã hội</h4>
           <div className="flex gap-3">
             <div className="">
-              <img src="src/images/svg/fb.svg" alt="" />
+              <img src="fb.svg" alt="" />
             </div>
             <div className="">
-              <img src="src/images/svg/twiiter.svg" alt="" />
+              <img src="twiiter.svg" alt="" />
             </div>
             <div className="">
-              <img src="src/images/svg/ytb.svg" alt="" />
+              <img src="ytb.svg" alt="" />
             </div>
             <div className="">
-              <img src="src/images/svg/insta.svg" alt="" />
+              <img src="insta.svg" alt="" />
             </div>
           </div>
         </div>

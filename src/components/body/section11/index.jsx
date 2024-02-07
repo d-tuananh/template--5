@@ -9,7 +9,7 @@ import { CustomBtn } from "../../customSwiper/customBtn"
 
 export const Section11 = () => {
   return (
-    <section className="bg-[url('src/images/png/img27.png')]">
+    <section className="bg-[url('/img27.png')]">
       <div className="container py-[5rem]">
         <h3 className="text-center font-bold text-4xl text-white mb-[3rem]">
           Cảm nhận của khách hàng sau khi sử dụng dịch vụ
@@ -42,7 +42,7 @@ export const Section11 = () => {
               >
                 <div className="flex flex-col justify-center items-center gap-4">
                   <div className="">
-                    <img src="src/images/png/Union.png" alt="" />
+                    <img src="Union.png" alt="" />
                   </div>
                   <h4 className="font-bold w-[80%] mx-auto">
                     Bệnh viện Phương Đông mang đến cho tôi cảm giác vô cùng bình
@@ -60,15 +60,15 @@ export const Section11 = () => {
                     <img
                       src={
                         index > 2
-                          ? `src/images/png/img${index + 25}.png`
-                          : `src/images/png/img${index + 28}.png`
+                          ? `img${index + 25}.png`
+                          : `img${index + 28}.png`
                       }
                       alt=""
                     />
                   </div>
                   <h5 className="text-xs font-bold">Nguyễn Minh Ánh</h5>
                   <div className="">
-                    <img src="src/images/png/5-star.png" alt="" />
+                    <img src="5-star.png" alt="" />
                   </div>
                 </div>
               </SwiperSlide>

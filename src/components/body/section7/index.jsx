@@ -8,19 +8,19 @@ import "swiper/css/pagination"
 import { CustomBtn } from "../../customSwiper/customBtn"
 const data = [
   {
-    url: "src/images/png/img10.png",
+    url: "img10.png",
     title: "Gói Khám sàng lọc ung thư tiền liệt tuyến",
     content:
       "Ung thư tiền liệt tuyến rất nguy hiểm, đe dọa nặng nề đến sức khỏe nam giới. Vì vậy các bác sĩ luôn khuyến nghị người thuộc đối tượng có nguy cơ cao mắc căn bệnh này nên khám sàng lọc định kỳ để có thể phát hiện sớm, chính xác, giúp điều trị hiệu quả.",
   },
   {
-    url: "src/images/png/img11.png",
+    url: "img11.png",
     title: "Gói Khám tầm soát ung thư đường tiêu hoá",
     content:
       "Tầm soát ung thư đường tiêu hoá là việc làm rất quan trọng với mỗi người. Tầm soát định kỳ được khuyến cáo cho tất cả mọi người, trong đó những trường hợp đặc biệt dưới đây thuộc nguy cơ cao mắc ung thư đường tiêu hoá.",
   },
   {
-    url: "src/images/png/img12.png",
+    url: "img12.png",
     title: "Gói Khám sàng lọc ung thư phổi",
     content:
       "Ung thư phổi là một trong những bệnh lý nguy hiểm đe dọa cả phụ nữ và nam giới tại Việt Nam. Bởi vậy, khám sàng lọc ung thư phổi luôn được các bác sĩ khuyến khích thực hiện định kỳ nhằm phát hiện sớm tình trạng bệnh để có phương án điều trị hiệu quả.",

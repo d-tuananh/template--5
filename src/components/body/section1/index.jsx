@@ -3,10 +3,10 @@ export const Section1 = () => {
     <section className=" bg-dd-400 xl:bg-none">
       <div className="container py-[5rem] xl:pt-[10rem] relative">
         <div className="absolute inset-y-0 -start-[20%] -z-10 overflow-hidden hidden xl:block">
-          <img src="src/images/png/img1.png" alt="" className="" />
+          <img src="img1.png" alt="" className="" />
         </div>
         <div className="absolute top-0 bottom-0 -end-[10%] -z-10 overflow-hidden hidden xl:block">
-          <img src="src/images/png/img2.png" alt="" className="" />
+          <img src="img2.png" alt="" className="" />
         </div>
         <div className="xl:w-2/5 flex flex-col gap-5 text-white">
           <h3 className="font-extrabold tracking-[0.25rem] text-center lg:text-start">

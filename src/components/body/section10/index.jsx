@@ -9,7 +9,7 @@ import { CustomBtn } from "../../customSwiper/customBtn"
 
 export const Section10 = () => {
   return (
-    <section className="bg-[url('src/images/png/Vector.png')] bg-no-repeat bg-cover bg-center">
+    <section className="bg-[url('/Vector.png')] bg-no-repeat bg-cover bg-center">
       <div className="container relative">
         <h3 className="font-bold text-center text-4xl mb-[2rem]">
           Đội ngũ bác sĩ của chúng tôi
@@ -44,8 +44,8 @@ export const Section10 = () => {
                       <img
                         src={
                           index > 3
-                            ? `src/images/png/doctor${index - 3}.png`
-                            : `src/images/png/doctor${index + 1}.png`
+                            ? `doctor${index - 3}.png`
+                            : `doctor${index + 1}.png`
                         }
                         alt=""
                       />
@@ -54,7 +54,7 @@ export const Section10 = () => {
                   <h4 className="font-bold grow-0">NGUYỄN TRUNG CHÍNH</h4>
                   <p className="text-sm grow-0">PGS.TS. Bác sĩ Ung bướu</p>
                   <div className=" grow-0">
-                    <img src="src/images/png/5-star.png" alt="" />
+                    <img src="5-star.png" alt="" />
                   </div>
                   <p className="text-xs grow-0">4.8/5 (38 bình chọn)</p>
                 </div>
