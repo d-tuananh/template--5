@@ -1,11 +1,11 @@
-import { Swiper, SwiperSlide } from "swiper/react"
-import { FreeMode } from "swiper/modules"
+import { Swiper, SwiperSlide } from "swiper/react";
+import { FreeMode } from "swiper/modules";
 
 // Import Swiper styles
-import "swiper/css"
-import "swiper/css/free-mode"
-import "swiper/css/pagination"
-import { CustomBtn } from "../../customSwiper/customBtn"
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+import { CustomBtn } from "../../customSwiper/customBtn";
 const data = [
   {
     url: "img10.png",
@@ -25,12 +25,12 @@ const data = [
     content:
       "Ung thư phổi là một trong những bệnh lý nguy hiểm đe dọa cả phụ nữ và nam giới tại Việt Nam. Bởi vậy, khám sàng lọc ung thư phổi luôn được các bác sĩ khuyến khích thực hiện định kỳ nhằm phát hiện sớm tình trạng bệnh để có phương án điều trị hiệu quả.",
   },
-]
+];
 export const Section7 = () => {
   return (
     <section>
-      <div className="container relative mt-[10rem]">
-        <h3 className="text-4xl font-bold text-center mb-10">
+      <div className="container relative mt-[5rem] xl:mt-[10rem]">
+        <h3 className="mb-10 text-center text-4xl font-bold">
           Các gói dịch vụ liên quan
         </h3>
 
@@ -52,17 +52,17 @@ export const Section7 = () => {
         >
           {[...data, ...data].map((item, index) => (
             <SwiperSlide key={index}>
-              <div className="shadow-custom rounded-3xl my-2">
+              <div className="my-2 rounded-3xl shadow-custom">
                 <div>
                   <img src={item.url} alt={item.title} />
                 </div>
-                <div className="p-5 flex flex-col gap-3">
+                <div className="flex flex-col gap-3 p-5">
                   <h4 className="font-bold">{item.title}</h4>
                   <p className="text-justify">{item.content}</p>
                   <button
                     className="text-[#0A9949]"
                     onClick={() => {
-                      prompt("Vui lòng nhập số điện thoại của bạn !")
+                      prompt("Vui lòng nhập số điện thoại của bạn !");
                     }}
                   >
                     Đăng ký tư vấn ngay
@@ -71,11 +71,11 @@ export const Section7 = () => {
               </div>
             </SwiperSlide>
           ))}
-          <div className="absolute top-1/2 -translate-y-1/2 w-full flex justify-between z-20">
+          <div className="absolute top-1/2 z-20 flex w-full -translate-y-1/2 justify-between">
             <CustomBtn />
           </div>
         </Swiper>
       </div>
     </section>
-  )
-}
+  );
+};

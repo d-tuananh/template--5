@@ -1,18 +1,18 @@
 export const Section1 = () => {
   return (
-    <section className=" bg-dd-400 xl:bg-none">
-      <div className="container py-[5rem] xl:pt-[10rem] relative">
-        <div className="absolute inset-y-0 -start-[20%] -z-10 overflow-hidden hidden xl:block">
-          <img src="img1.png" alt="" className="" />
+    <section className=" relative bg-dd-400 xl:bg-none">
+      <div className="absolute bottom-0 end-0 top-0 -z-10 hidden overflow-hidden xl:block">
+        <img src="img2.png" alt="" />
+      </div>
+      <div className="container relative pb-[2rem] pt-[5rem] xl:py-[10rem]">
+        <div className="absolute inset-y-0 -start-[25rem] -z-20 hidden overflow-hidden xl:block 2xl:-start-[12rem]">
+          <img src="img1.png" alt="" />
         </div>
-        <div className="absolute top-0 bottom-0 -end-[10%] -z-10 overflow-hidden hidden xl:block">
-          <img src="img2.png" alt="" className="" />
-        </div>
-        <div className="xl:w-2/5 flex flex-col gap-5 text-white">
-          <h3 className="font-extrabold tracking-[0.25rem] text-center lg:text-start">
+        <div className="flex flex-col gap-5 text-white xl:w-2/5">
+          <h3 className="text-center font-extrabold tracking-[0.25rem] lg:text-start">
             TẦM SOÁT UNG THƯ TUYẾN GIÁP
           </h3>
-          <div className="font-bold text-4xl md:text-6xl text-center lg:text-start">
+          <div className="text-center text-4xl font-bold md:text-6xl lg:text-start">
             <span>Phát hiện sớm ung thư giúp điều trị dễ dàng</span>
           </div>
           <p>
@@ -24,16 +24,16 @@ export const Section1 = () => {
             Quý khách vui lòng để lại số điện thoại, chúng tôi sẽ liên hệ lại
             ngay!
           </p>
-          <form className="py-2 pl-4 pr-2 bg-white rounded-full flex items-center justify-between">
+          <form className="flex items-center justify-between rounded-full bg-white py-2 pl-4 pr-2">
             <input
               type="tel"
-              className="outline-none text-main p-1 w-full"
+              className="w-full p-1 text-main outline-none"
               required
               placeholder="Nhập số điện thoại ...."
               pattern="[0-9]{10,12}"
               title="Số điện thoại từ 10 đến 12 chữ số"
             />
-            <button className="bg-linear-green flex justify-center items-center p-2 rounded-full gap-2 min-w-fit">
+            <button className="flex min-w-fit items-center justify-center gap-2 rounded-full bg-linear-green p-2 hover:opacity-80">
               <svg
                 width="24"
                 height="23"
@@ -56,5 +56,5 @@ export const Section1 = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
